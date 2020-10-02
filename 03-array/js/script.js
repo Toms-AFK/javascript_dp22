@@ -7,5 +7,13 @@ function generateArray(start, end){
         rangeArray.push(i)
     }
 
-    console.log(rangeArray)
+    return rangeArray
 }
+
+function printArray(masivs){
+    for(let i = 0; i < masivs.length; i++){
+        console.log(masivs[i])
+    }
+}
+
+printArray(generateArray(3,9))

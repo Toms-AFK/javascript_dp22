@@ -17,7 +17,7 @@ function filter(btnType){
             continue
         }
 
-        delite row.removeAttribute('hidden')
+        delete row.removeAttribute('hidden')
 
         if(row.classname !== btnType && btnType !== 'viss'){
             row.setAttribute('hidden','hidden')

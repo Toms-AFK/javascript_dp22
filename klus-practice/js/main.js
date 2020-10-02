@@ -12,7 +12,7 @@ function filter(btnType){
 
     let table = document.getElementsByTagName('tr')
     
-    for(let row of){
+    for(let row of table){
         if(row.classname === ''){
             continue
         }
